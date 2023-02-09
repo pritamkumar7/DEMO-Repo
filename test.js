@@ -211,6 +211,7 @@ let [a,b=10,c] = array;
 console.log(a);
 console.log(b);
 console.log(2**3);
+console.log(2**3);
 
 // const datas = [
 //     { name: "Kunal", Age: 21 },

@@ -206,16 +206,16 @@ let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // }
 // u1.printDetails.call(u2)
 
-let array = [1,2];
-let [a,b=10,c] = array;
+let array = [1, 2];
+let [a, b = 10, c] = array;
 console.log(a);
 console.log(b);
-console.log(2**3);
-console.log(2**3);
+console.log(2 ** 3);
+console.log(2 ** 3);
 console.log(a);
 console.log(b);
-console.log(2**3);
-console.log(2**3);
+console.log(2 ** 3);
+console.log(2 ** 3);
 // const datas = [
 //     { name: "Kunal", Age: 21 },
 //     { name: "Rahul", Age: 22 },
@@ -230,3 +230,20 @@ console.log(2**3);
 //     { name: "Rohit", Age: 22 },
 //     { name: "Raj", Age: 65 }
 // ]
+
+// pritam
+import React, { useState } from 'react';
+
+function Example() {
+    // Declare a new state variable, which we'll call "count"
+    const [count, setCount] = useState(0);
+
+    return (
+        <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me
+            </button>
+        </div>
+    );
+}
